@@ -1,0 +1,106 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot'); /* IE9*/
+  src: url('../fonts/iconfont.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-caidan:before { content: "\e6dc"; }
+
+/*.icon-fangbianfenxiang:before { content: "\e6b0"; }*/
+.icon-fangbianfenxiang {
+  background-image: url(../fonts/extend.svg);
+}
+.active .icon-fangbianfenxiang {
+  /*background-image: url(../fonts/extendactive.svg)!important;*/
+}
+.icon-viewgallery:before { content: "\e6b4"; }
+
+.icon-qunfa:before { content: "\e79a"; }
+
+/*.icon-huiyuanzu:before { content: "\e680"; }*/
+#sidebar ul li:nth-child(6) .icon-huiyuanzu {
+  background-image: url(../fonts/invite.svg);
+}
+#sidebar ul li:nth-child(6) .list-active .icon-huiyuanzu {
+  /*background-image: url(../fonts/inviteactive.svg)!important;*/
+}
+#sidebar ul li:nth-child(7) .icon-huiyuanzu {
+  background-image: url(../fonts/agent.svg);
+}
+#sidebar ul li:nth-child(7) .list-active .icon-huiyuanzu {
+  /*background-image: url(../fonts/agentactive.svg)!important;*/
+}
+.icon-cuowu:before { content: "\e641"; }
+
+.icon-erweima:before { content: "\e642"; }
+
+.icon-jushoucang:before { content: "\e643"; }
+
+/*.icon-shezhi:before { content: "\e64b"; }*/
+.icon-shezhi {
+  background-image: url(../fonts/setting.svg);
+}
+.active .icon-shezhi {
+  /*background-image: url(../fonts/settingactive.svg)!important;*/
+}
+/*.icon-shengyin:before { content: "\e64c"; }*/
+.icon-shengyin {
+  background-image: url(../fonts/notification.svg);
+}
+.list-active .icon-shengyin {
+  /*background-image: url(../fonts/notificationactive.svg)!important;*/
+}
+.icon-shijian:before { content: "\e64d"; }
+
+.icon-shouhuodizhi:before { content: "\e64e"; }
+
+.icon-shouye:before { content: "\e64f"; }
+
+.icon-wodefankui:before { content: "\e656"; }
+
+/*.icon-biji:before { content: "\e600"; }*/
+.icon-biji {
+  background-image: url(../fonts/finance.svg);
+}
+.list-active .icon-biji {
+  /*background-image: url(../fonts/financeactive.svg)!important;*/
+}
+.icon-taolun:before { content: "\e661"; }
+
+.icon-unie619:before { content: "\e632"; }
+
+.icon-yingyong:before { content: "\e645"; }
+
+/*.icon-zhuzhuangtu:before { content: "\e647"; }*/
+.icon-zhuzhuangtu {
+  background-image: url(../fonts/count.svg);
+}
+.list-active .icon-zhuzhuangtu {
+  /*background-image: url(../fonts/countactive.svg)!important;*/
+}
+.icon-cloud_upload:before { content: "\e652"; }
+
+.icon-yonghuguanli:before { content: "\e620"; }
+
+/*.icon-sousuoshu:before { content: "\e614"; }*/
+.icon-sousuoshu {
+  background-image: url(../fonts/manage.svg);
+}
+.list-active .icon-sousuoshu {
+  /*background-image: url(../fonts/manageactive.svg)!important;*/
+}
+
+
+
+
