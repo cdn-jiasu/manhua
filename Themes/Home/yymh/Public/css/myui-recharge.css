@@ -1,0 +1,618 @@
+﻿.charge-list-panel {
+	padding: 0.3rem 0.5rem;
+}
+
+.charge-list-panel  li {
+	margin-bottom: 0.5rem;
+}
+
+.charge-list-panel  li:NTH-CHILD(odd) {
+	padding-right: 0.25rem;
+}
+
+.charge-list-panel  li:NTH-CHILD(even) {
+	padding-left: 0.25rem;
+}
+
+.charge-list-panel  .charge-item-bar {
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.charge-list-panel  .charge-item-bar  .sub-title-bar {
+	color: #F9766A;
+}
+
+.charge-list-panel  .charge-item-bar .info-bar {
+	font-size: 0.6rem;
+}
+
+.charge-list-panel  .charge-active {
+	background-color: #F9766A;
+	color: #fff;
+}
+
+.charge-list-panel  .charge-active  .sub-title-bar {
+	color: #fff;
+}
+
+.charge-list-panel  .charge-active p {
+	color: #fff;
+}
+
+.charge-list-panel .pay-btn-panel {
+	margin-bottom: 10px;
+}
+
+.charge-list-panel .pay-btn-panel  .alipay-btn {
+	
+}
+
+.charge-list-panel .pay-btn-panel  .wxpay-btn {
+	
+}
+
+.payment_wrap {
+        width: 100%;
+        margin: auto;
+        letter-spacing: -1px;
+        /*padding-top: 10px;*/
+        box-sizing: border-box;
+    }
+    .clearfix {
+        zoom: 1;
+    }
+    .line_box {
+        margin: 0px auto 10px;
+        overflow: hidden;
+    }
+    .line_box.chargebox {
+        height: 65px;
+        background-color: #fff;
+    }
+    .line_box p {
+        width: 33%;
+        border-right: 1px dashed #ddd;
+        float: left;
+        text-align: center;
+        color: #333;
+        height: 65px;
+        padding-top: 10px;
+        list-style: none;
+    }
+    .payment_wrap p {
+        padding: 0;
+        margin: 0;
+    }
+    .line_box p {
+        border-right: 1px dashed #ddd;
+        float: left;
+        text-align: center;
+        color: #333;
+        height: 65px;
+        padding-top: 10px;
+    }
+
+    .line_box p span {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .line_box.chargebox span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .payicon.p_coin {
+        background: url(../images/golds.png);
+        background-size: 100%;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+    }
+
+    .line_box.chargebox span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .line_box p span.num {
+        display: block;
+        color: #fc3f6c;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 6px;
+    }
+
+    .line_box p:last-child {
+        border-right: 0;
+        width: 34%;
+    }
+
+    .payicon.p_eventcoin {
+        background: url(../images/goldcard.png);
+        background-size: 100%;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+    }
+
+    .payment_wrap h2 {
+        width: 90%;
+        margin: 15px auto;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        border-bottom: 0;
+        padding-bottom: 0px;
+    }
+
+    .payment_wrap .payment_contents {
+        width: 100%;
+    }
+
+    .charge_list {
+        position: relative;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+    }
+
+    .charge_list p.member_tt {
+        /*width: 100%;*/
+        height: 35px;
+        line-height: 35px;
+        background: #fc3f6c;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: -1px;
+        padding-left: 10px;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .charge_list p.member_tt span.tt_icon {
+        vertical-align: middle;
+        width: 26px;
+        height: 25px;
+        background: url(../images/member_tt_icon.png) no-repeat center center;
+        background-size: 26px;
+        margin: 0 5px;
+        display: inline-block;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #666;
+    }
+
+    img {
+        border: 0 none;
+        max-width: 100%;
+        display: block;
+    }
+
+    .product_item {
+        cursor: pointer;
+        height: 50px;
+        font-size: 14px;
+        background-color: #fff;
+    }
+
+    .charge_list ul.secret_item li {
+        height: 50px;
+        line-height: 50px;
+        /*border-bottom: 1px solid #f3d8d5;*/
+        padding: 0 10px;
+        font-size: 12px;
+        border-radius: 0px 0px 4px 4px;
+        margin-bottom: 10px;
+    }
+
+    .charge_list ul.secret_item li span {
+        font-weight: bold;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .charge_list ul.coin_list {
+        margin-bottom: 10px;
+        border-top: 2px solid #aaa;
+    }
+
+    .payment_list {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .payment_list a {
+        display: block;
+    }
+
+    .payment_list .premium_pay .premium_pay_btn {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background: #42b5ff;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .payment_list .premium_pay .premium_pay_btn .arrow {
+        background: url(../images/icon_arrow_pay.png) center center no-repeat #000;
+        display: inline-block;
+        zoom: 1;
+        width: 22px;
+        height: 22px;
+        border-radius: 90px;
+        background-size: 10px;
+        position: absolute;
+        right: 8px;
+        top: 10px;
+    }
+
+    .payway_active_li_btn {
+        background: #ffffbe !important;
+        border: solid 1px #fc3f6c !important;
+    }
+
+    .payway_active_li_btn:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: url(../images/select.png) no-repeat;
+        width: 16px;
+        height: 16px;
+        background-size: 16px;
+    }
+
+    .charge_list ul.coin_list li {
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .charge_list ul.coin_list li a {
+        display: block;
+        padding: 0 10px;
+        color: #333;
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .payment_list a {
+        display: block;
+    }
+
+    .payment_list .common_pay .common_pay_btn {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background: #42b5ff;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .payment_list .common_pay .common_pay_btn .arrow {
+        background: url(../images/icon_arrow_pay.png) center center no-repeat #000;
+        display: inline-block;
+        zoom: 1;
+        width: 22px;
+        height: 22px;
+        border-radius: 90px;
+        background-size: 10px;
+        position: absolute;
+        right: 8px;
+        top: 10px;
+    }
+
+    .payment_wrap h2 {
+        width: 90%;
+        margin: 15px auto;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        border-bottom: 0;
+        padding-bottom: 0px;
+    }
+
+    .charge_list .new_payway_list {
+        width: 100%;
+        background: #fff;
+        top: 0;
+        left: 0;
+        min-height: 365px;
+        z-index: 2;
+        border-top: 2px solid #aaa;
+        border-bottom: 1px solid #ddd;
+        padding: 5px 10px 15px;
+    }
+
+    .charge_list .new_payway_list ul.method_list li {
+        border-radius: 5px;
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        width: 49%;
+        font-weight: bold;
+        text-align: center;
+        background: linear-gradient(rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%);
+        border: 1px solid #666;
+        margin-bottom: 5px;
+        position: relative;
+        letter-spacing: -1px;
+        box-shadow: rgb(204, 204, 204) 0px 1px 2px;
+    }
+
+    .charge_list .new_payway_list ul.method_list li {
+        width: 49%;
+        float: left;
+    }
+
+    .charge_list .new_payway_list ul.method_list li.payway_active_li_btn {
+        border: 1px solid #6283e3;
+    }
+
+    .payment_wrap .button_area {
+        width: 100%;
+        padding: 0px 0px 15px 0px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .payment_wrap .button_area a.payment_button_payyo {
+        width: 98%;
+        height: 45px;
+        line-height: 50px;
+        color: #fff;
+        display: inline-block;
+        border-radius: 5px;
+        background: #25c700;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    span.desc {
+        display: block;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .notice {
+        margin: 10px 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .notice a.title {
+        font-size: 14px;
+        color: #e63740;
+        font-weight: bold;
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .qrbox {
+        margin: 10px 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .qrbox .title {
+        font-size: 14px;
+        color: #e63740;
+        font-weight: bold;
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .qrbox .info_box{
+
+        margin: .4rem auto 0 auto;
+        padding: .24rem;
+        color: #af7326;
+        background-color: #fdf4e8;
+        border: 1px solid #f4ebda;
+        font-size: 12px;
+    }
+
+    .topimg {
+        display: block;
+        background: url(../images/common_image.png) no-repeat;
+        background-size: 120px auto;
+        margin: auto;
+    }
+
+    .icon_notice {
+        width: 18px;
+        height: 18px;
+        background-position: 0 -158px;
+        float: left;
+        vertical-align: middle;
+        margin: 5px 5px 0 0;
+    }
+
+    .notice a.title span.notice_arrow {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .icon_arrow_down_red {
+        width: 10px;
+        height: 6px;
+        background-position: -20px -22px;
+    }
+
+    .notice ul.notice_list {
+        margin: 5px 0 20px 0px;
+    }
+
+    .notice ul.notice_list li {
+        list-style: disc;
+        line-height: 16px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        display: inline-block; text-indent: -10px; margin-left: 10px;
+    }
+
+
+
+    .del_price {
+        font-size: 12px;
+        color: rgba(0,0,0,0.2);
+    }
+
+    .subHeader .iconService {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: url(../images/bg_head_01.png) no-repeat center;
+        background-size: 18px 18px;
+    }
+
+    .pay_title {
+        font-size: 14px;
+        /*font-weight: bold;*/
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #666;
+    }
+
+    .c_list {
+        display: block;
+        overflow: hidden;
+    }
+
+    .product_box {
+        width: 47.5%;
+        float: left;
+        background: #fff;
+        border-radius: 4px;
+        position: relative;
+        display: block;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #ccc;
+    }
+
+    .b_r {
+        float: right;
+        margin-right: 0px;
+    }
+
+    .product_box .msg {
+        width: 100%;
+        text-align: center;
+        height:60px;
+        line-height:20px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .product_box .msg .sub {
+        font-size: 12px;
+        color: #ccc;
+    }
+
+    .f_red {
+        color: #e63740;
+    }
+
+    .product_box .msg .gift {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .payBtn {
+        background: #25c700;
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 2px;
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .hrl {
+        border-top: 1px solid #ddd;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .product {
+
+    }
+
+    .utitle {
+        height: 28px;
+        line-height: 28px;
+        font-size: 14px;
+        color: #585858;
+    }
+
+    .webbox {
+        margin-top: 0px;
+        background-color: #f8f8f8;
+        border-bottom: solid 1px #ccc;
+        height: 30px;
+        padding-left: 20px;
+        color: #585858;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .defconer {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 76px;
+        height: 76px;
+        background: url(../images/pro_def.png);
+        background-size: 76px 76px;
+        background-position: 0 0 !important;
+        display: inline-block;
+    }
+
+    .btn_info_div{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn_info_box{
+        margin: .4rem auto 0 auto;
+        padding: .24rem !important;
+        color: #af7326;
+        background-color: #fdf4e8;
+        border: 1px solid #f4ebda;
+        font-size: 12px;
+    }

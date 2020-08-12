@@ -1,0 +1,42 @@
+.pager-panel {
+	padding: 15px 0px;
+	text-align: center;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 512px;
+}
+
+select {
+	-webkit-appearance: menulist;
+	box-sizing: border-box;
+	align-items: center;
+	white-space: pre;
+	-webkit-rtl-ordering: logical;
+	color: #333;
+	background-color: white;
+	cursor: default;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f0f0f0;
+	height: 1.5rem;
+	margin: 0px auto;
+	border-radius: 3px;
+	width: 75%
+}
+
+.chapter-list-panel .aui-list-item-media a {
+	height: 50px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom: 1;
+	border-radius: 5px;
+}
+
+.chapter-list-panel .aui-list-item-media a>img {
+	height: 100%;
+	border-radius: 3px;
+}

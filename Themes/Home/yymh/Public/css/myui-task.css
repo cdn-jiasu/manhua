@@ -1,0 +1,402 @@
+ body {
+            font-size: 14px;
+            color: #333;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #eeeeee;
+            overflow: hidden;
+        }
+        .main-wrap {
+            box-sizing: inherit;
+            width: 100%;
+        }
+        .bg-white {
+            background-color: #ffffff;
+        }
+        .grade-user-block {
+            padding: 16px 12px 16px 12px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-top:2.55rem;
+        }
+        .grade-user-block .avatar {
+            display: inline-block;
+            float: left;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            font-size: 0;
+        }
+        img {
+            border: none;
+        }
+        .grade-user-block .avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .grade-user-block .info {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            margin-left: 10px;
+            font-size: 12px;
+            line-height: 2;
+        }
+        .grade-btn-block--right {
+            padding-top: 5px;
+        }
+        .grade-button {
+            box-sizing: border-box;
+            background-color: #FF5F65;
+            border: none;
+            color: #ffffff;
+            font-size: 12px;
+            height: 32px;
+            text-align: center;
+            border-radius: 16px;
+            width: 134px;
+        }
+        .grade-btn-block--right .grade-button {
+            width: 120px;
+        }
+        .mg-top {
+            margin-top: 8px;
+        }
+        .grade-privilege-block {
+            padding: 16px 0;
+        }
+        .title {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .grade-privilege-block .title {
+            font-size: 12px;
+            color: #505050;
+            padding-left: 14px;
+            padding-bottom: 8px;
+        }
+        .grade-privilege-block .privilege-item {
+            margin: 0 2% 5px 2%;
+            height: 120px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #505050;
+            text-align: left;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .grade-privilege-block .privilege-item.item--free {
+            background-color: #FFEDF1;
+        }
+
+        .grade-privilege-block .privilege-item .intro{
+            position: absolute;
+            left: 75px;
+            padding-top: 14px;
+        }
+
+        .grade-privilege-block .privilege-item .thumb {
+            width: 52px;
+            height: 52px;
+            border-radius: 52px;
+            background-position: center center;
+            position: absolute;
+            background-size: cover;
+            margin-top: 14px;
+            margin-left: 10px;
+        }
+
+        .grade-privilege-block .privilege-item .status {
+            font-size: 13px;
+            background-color: #FFFFFF;
+            color: #fc3f6c;
+            display: block;
+            border-radius: 2px;
+            text-align: center;
+            width: 75px;
+            height: 28px;
+            line-height: 28px;
+            position: absolute;
+            right: 10px;
+            top: 26px;
+        }
+
+        .grade-privilege-block .privilege-item .intro span:first-child {
+            font-size: 14px;
+            color: #299af4;
+            font-weight: bolder;
+        }
+        .grade-privilege-block .privilege-item.item--sp {
+            background-color: #FFF9EA;
+        }
+        .grade-privilege-block .privilege-item.item--mp {
+            background-color: #DEF8FF;
+        }
+        .grade-privilege-block .privilege-item.item--locking {
+            background-color: #FFEDF1;
+        }
+        .grade-privilege-block .privilege-item.item--completed {
+            background-color: #F1FBE7;
+        }
+        .annual-fee-item {
+            display: inline-block;
+            text-align: center;
+            width: 105px;
+        }
+        .annual-fee-item .annual-fee-icon {
+            width: 72px;
+            width: 4.5rem;
+            height: 72px;
+            height: 4.5rem;
+            border-radius: 50%;
+            background-color: #eee;
+            line-height: 72px;
+            line-height: 4.5rem;
+            margin: 0 auto;
+        }
+        .annual-fee-item .annual-fee-icon img {
+            width: 64px;
+            width: 4rem;
+            height: 64px;
+            height: 4rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .imggray {
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+
+        .annual-fee-item .annual-fee-text {
+            font-size: 9.6px;
+            font-size: 0.6rem;
+            color: #505050;
+            line-height: 3;
+        }
+
+        .sharMsg {
+            text-align: center;
+            padding: 10px;
+            line-height: 30px;
+            color: #000;
+        }
+
+        #sharQr {
+            width: 120px; height: 120px; margin: auto;
+        }
+
+        .red-bolder {
+            font-weight: bolder;
+            color:#FF5F65;
+        }
+
+        #sharTitle {
+            font-weight: bolder;
+            color:#333;
+        }
+
+        #sharAcut {
+            font-size: 12px;
+            line-height: 20px;
+            color: #299af4;
+            margin-top: -10px;
+        }
+
+        #sharSubTitle {
+            font-weight: bolder;
+            color:#333;
+        }
+
+        #sharKeyword {
+            color: red;
+        }
+
+        #sharPs {
+            font-size: 10px;
+            color: #505050;
+            font-weight: normal;
+        }
+
+        #sharPs2 {
+            font-size: 10px;
+            color: #505050;
+            font-weight: normal;
+        }
+
+        .rcode {
+            background-color: #000;
+            padding: 2px 20px;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 14px;
+            border-radius: 20px;
+        }
+
+        .copyBtn {
+            margin: 10px 10px 10px;
+            background: #60ba48;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            display: block;
+            border-radius: 40px;
+            font-weight: bolder;
+        }
+
+        .taskKeyword {
+            background-color: #000;
+            padding: 2px 10px;
+            color: #fff;
+            border-radius: 20px;
+            font-weight: bolder;
+        }
+
+        #taskPs {
+            font-size: 10px;
+            color: #505050;
+            font-weight: normal;
+        }
+
+        #taskPs2 {
+            font-size: 10px;
+            color: #505050;
+            font-weight: normal;
+        }
+
+        .taskTitle {
+            margin-top: 10px;
+        }
+
+        .taskAva {
+            width: 52px;
+            height: 52px;
+            border-radius: 52px;
+            background-position: center center;
+            background-size: cover;
+            display: block;
+            margin: auto;
+        }
+
+        .sharWin {
+    width: 350px;
+    height: 250px;
+    position: fixed;
+    z-index: 9999;
+    border-radius: 2px;
+    z-index: 999999;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0)
+}
+
+.sharWin .sharClose {
+    width: 20px;
+    height: 28px;
+    background: url(../images/bg_layer_close.png) no-repeat center;
+    background-size: 12px 12px;
+    margin: 5px 10px 5px 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.sharWin .sharClose:hover {
+    width: 20px;
+    height: 28px;
+    background: url(../images/bg_layer_close_h.png) center no-repeat;
+    background-size: 12px 12px;
+    margin: 5px 10px 5px 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.sharWin .sharBar {
+    height: 38px;
+    line-height: 38px;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 2px 2px 0 0;
+    text-align: left;
+    padding-left: 15px;
+    background: #fff;
+}
+
+.sharWin .sharBox {
+    height: 222px;
+    background: rgba(255, 255, 255, .9)
+}
+
+.bds_tsina.sina {
+    background: url(../images/bg_shar_sina.png);
+    background-size: 48px 66px;
+    background-position: 0 0 !important;
+    width: 48px;
+    height: 66px;
+    padding: 0;
+    margin: 20px 0 0 22px
+}
+
+.bds_qzone.zone {
+    background: url(../images/bg_shar_zone.png);
+    background-size: 48px 66px;
+    background-position: 0 0 !important;
+    width: 48px;
+    height: 66px;
+    padding: 0;
+    margin: 20px 0 0 31px
+}
+
+.bds_tqq.tqq {
+    background: url(../images/bg_shar_tqq.png);
+    background-size: 48px 66px;
+    background-position: 0 0 !important;
+    width: 48px;
+    height: 66px;
+    padding: 0;
+    margin: 20px 0 0 31px
+}
+
+.layerz {
+    -webkit-transition-duration: .3s;
+    -webkit-transition-delay: .1s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-duration: .3s;
+    -moz-transition-delay: .1s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-duration: .3s;
+    -o-transition-delay: .1s;
+    -o-transition-timing-function: ease-in;
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transition: transform .3s linear .3s;
+    -webkit-transition: -webkit-transform .3s linear .3s;
+    -moz-transition: -moz-transform .3s linear .3s;
+    -o-transition: -o-transform .3s linear .3s;
+}
+
+.show {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: block;
+    top: 0;
+    left: 0;
+    display: none;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+}

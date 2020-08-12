@@ -1,0 +1,48 @@
+.userinfo {
+	clear: both;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.userinfo span {
+	font-size: 0.8rem;
+	color: #fff;
+	display: block;
+	padding: 5px;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+.userinfo .userlogo {
+	width: 25%;
+	margin: 25px auto 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.userinfo .userlogo img {
+	border-radius: 30px;
+	display: inline-block;
+}
+
+.userinfo span b {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.userinfo span i {
+	display: inline-block;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 0.65rem;
+	padding: 3px 8px;
+	background: #d1acd8;
+}
+
+.userinfo .userdesc {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 90%;
+}

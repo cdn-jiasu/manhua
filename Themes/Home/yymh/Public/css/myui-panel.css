@@ -1,0 +1,157 @@
+﻿/*2图列表*/
+.list-panel {  /*列表面板基本设置*/
+	background-color: #FFFFFF;
+	margin: 10px 0px;
+	padding: 0.75rem;
+}
+.list-panel .panel-title {   /*列表面板标题设置*/
+	border-left: 5px solid #e51c23;
+	padding-left: 5px;
+	font-weight: bold;
+}
+.list-panel .panel-content {  /*列表面板 内容*/
+	margin: 5px 0px;
+}
+.list-panel .panel-content img {  /*列表面板 图片设置*/
+	border-radius: 3px;
+	width: 100%;
+}
+.list-panel .panel-content li {  /*列表项设置*/
+	margin: 5px 0px;
+}
+.list-panel .panel-footer {   /*面板脚设置*/
+	text-align: center;
+	margin-top: 0.75rem;
+}
+.list-panel .panel-footer > a {
+	font-size: 0.8rem;
+	color: #333333;
+}
+
+/*以下为2图面板设置*/
+.list-panel li.aui-col-xs-6:nth-of-type(odd) {
+	padding-right: 0.375rem;
+}
+.list-panel li.aui-col-xs-6:nth-of-type(even) {
+	padding-left: 0.375rem;
+}
+.list-panel .aui-col-xs-6 a{
+	height: 112px;
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    border-radius: 3px;
+}
+
+/*以下为3图面板设置*/
+.list-panel .aui-col-xs-4{
+	text-align: center;
+}
+.list-panel .aui-col-xs-4 a{
+	height: 145px;
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    border-radius: 3px;
+}
+.list-panel li.aui-col-xs-4:nth-of-type(3n+1) {
+	padding-right: 6px;
+}
+.list-panel li.aui-col-xs-4:nth-of-type(3n+2) {
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.list-panel li.aui-col-xs-4:nth-of-type(3n+3) {
+	padding-left: 6px;
+}
+/*低分辨率下的3图高度设置*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5){
+	.list-panel .aui-col-xs-4 a{
+		height: 120px;
+	}
+}
+
+
+/*图文列表*/
+.media-list-panel{
+	background-color: #FFFFFF;
+	margin: 10px 0px;
+	padding: 0.75rem 0px;
+}
+.media-list-panel .panel-title {
+	border-left: 5px solid #e51c23;
+	padding-left: 5px;
+	font-weight: bold;
+	margin-left: 0.75rem;
+}
+.media-list-panel .panel-content {
+	margin: 5px 0px;
+}
+.media-list-panel .panel-content .aui-list-item-media img {
+	border-radius: 3px;
+	width: 100%;
+	max-height: 5rem;
+}
+.media-list-panel .panel-footer {
+	text-align: center;
+	margin-top: 0.75rem;
+}
+.media-list-panel .panel-footer > a {
+	font-size: 0.8rem;
+	color: #333333;
+}
+.media-list-panel .aui-info{
+	margin-top: 0.75rem;
+	padding: 0px;
+}
+.media-list-panel .aui-list .aui-list-item i.aui-iconfont{
+	font-size: 0.5rem;
+}
+.media-list-panel .aui-info-item .aui-label{
+	margin-right: 5px;
+	border-radius: 3px;
+}
+
+/*基本面板设置*/
+.base-panel .aui-list-item-media img{
+	border-radius: 3px;
+	width: 100%;
+	max-height: 5rem;
+}
+.base-panel .aui-list-item i.aui-iconfont{
+	font-size: 0.5rem;
+}
+.base-panel .aui-info-item .aui-label{
+	margin-right: 5px;
+	border-radius: 3px;
+}
+.base-panel .aui-info{
+	margin-top: 0.75rem;
+	padding: 0px;
+}
+.base-panel .aui-list-item-right .iconfont{
+	font-size: 1rem;
+}
+.base-panel .aui-list-item-right .icon{
+	width: 28px;
+	height: 28px;
+}
+/**去掉列表顶部的边框**/
+.aui-list {
+	border-top: 0;
+	background-image: linear-gradient(0,#fff,#fff 50%,transparent 50%);
+}
+/*修改列表项目条border的颜色**/
+.aui-list .aui-list-item {
+	border-bottom: 1px solid #f5f5f5;
+}
+/*低分辨率情况下不再重复显示border,因为有别的方式显示*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	.aui-list .aui-list-item {
+		border-bottom: 0;
+	}
+}

@@ -1,0 +1,274 @@
+﻿/*内容居中,并且最大512px*/
+body {
+	max-width: 512px;
+	font-family: 'Microsoft YaHei';
+	margin: 0 auto;
+}
+/*导航头漂浮,并且设置最大512px,居中显示*/
+.aui-bar-nav-fixed {
+	margin: 0 auto;
+	max-width: 512px;
+	position: fixed;
+	z-index: 10000;
+}
+/*底部导航条居中,最大512px*/
+.aui-bar-tab {
+	margin: 0 auto;
+	max-width: 512px;
+}
+/*内容显示区域距顶部的距离和底部的距离*/
+.fixed-content {
+	padding-top: 2.2rem;
+	padding-bottom: 3rem;
+}
+
+.fixed-top-content {
+	padding-top: 2.2rem;
+}
+
+.aui-label {
+	border-radius: 6px;
+	padding: 3px 7px;
+}
+
+.aui-media-list .aui-list-item-media img {
+	border-radius: 5px;
+}
+
+/*高斯模糊背景*/
+.blur-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 200px;
+}
+
+.blur-bg .blur-bg-img {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	left: -50%;
+	top: -50%
+}
+
+.blur-bg .blur-bg-img image {
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.blur-bg-warper {
+	background-size: 100%;
+	height: 180px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	background: #ccc;
+	text-shadow: 0 0 1px rgba(0, 0, 0, .6);
+}
+
+/**iconfont 的字体配置**/
+.aui-bar-tab .aui-bar-tab-item .iconfont {
+	position: relative;
+	z-index: 20;
+	top: 0.1rem;
+	height: 1.2rem;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+.aui-list-in .aui-list-item-label-icon .iconfont {
+	font-size: 1rem;
+}
+
+.aui-bar-tab  .aui-bar-tab-item>a {
+	color: #757575;
+}
+
+.pager-panel {
+	text-align: center;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.round-btn {
+	border-radius: 30px;
+}
+
+.show {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: block;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+#sheader {
+    height: 46px;
+    background: url(../images/head_line.gif) no-repeat bottom;
+    background-size: 100% 2px;
+    background-color: #fff;
+    display: none;
+    max-width: 512px;
+    font-family: 'Microsoft YaHei';
+    margin: 0 auto;
+    position: fixed;
+    z-index: 9999999;
+}
+
+#sheader .serCh {
+    max-width: 512px;
+    margin: 0 auto;
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+#sheader .serChinputBox {
+    margin-right: 92px;
+    height: 10px
+}
+
+#sheader .searInput {
+    -webkit-appearance: none;
+    width: 100%;
+    float: left;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    margin: 8px 0 0 10px;
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+    background: #f5f5f5;
+    outline: none;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+#sheader .searBtn {
+    width: 38px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    float: right;
+    margin: 8px 0 0 0;
+    border-radius: 0 2px 2px 0;
+    background: url(../images/bg_head_03.png) no-repeat center;
+    background-size: 17px 17px;
+    background-color: #f5f5f5;
+    border-left: 0;
+}
+
+#sheader .searClose {
+    width: 32px;
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    background: url(../images/bg_serch_close.png) no-repeat center;
+    background-size: 10px 10px;
+    border-radius: 2px;
+    float: right;
+    margin: 8px 10px 0 5px;
+    background-color: #f5f5f5
+}
+
+.messagSjr {
+    width: 100%;
+    position: relative;
+    top: 2px;
+    z-index: 4;
+    background: #fff;
+    z-index: 888
+}
+
+.messagSjr .keyTit li {
+    margin: 0 10px;
+    padding: 0 5px;
+    height: 40px;
+    border-bottom: 1px solid #cbcbcb;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.messagSjr .keyTit li a {
+    display: block;
+    height: 40px;
+    color: #585858
+}
+
+.messagSjr p {
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.messagSjr .tag {
+    padding: 0 10px 0 10px;
+}
+
+.messagSjr .tag li {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    font-size: 12px;
+    height: 34px;
+    margin: 0 1px 1px 3px;
+}
+
+.messagSjr .tag li a {
+    background: #42b5ff;
+    border-radius: 2px;
+    *zoom: 1;
+    *display: inline;
+    font-size: 12px;
+    padding: 5px 10px;
+    height: 21px;
+    color: #fff;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+#hotTit {
+    display: none
+}
+
+.c0 {
+    background: #42b5ff;
+}
+
+.c1 {
+    background: #0096ff;
+}
+
+.c2 {
+    background: #2775f7;
+}
+
+.c3 {
+    background: #0096ff;
+}
+
+.c4 {
+    background: #0096ff;
+}
+
+.c5 {
+    background: #42b5ff;
+}

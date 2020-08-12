@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="md device-pixel-ratio-3 device-retina device-desktop device-windows support-position-sticky" >
+<head>
+<meta charset="utf-8" />
+<meta name="theme-color" content="#000000" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<link rel="apple-touch-icon" href="favicon.ico" />
+<meta name="apple-mobile-web-app-title" content="<?php echo C('SITE_NAME');?>" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<script>
+! function() { var h = window,
+e = h.flex = function(e, i, t) { var n = e || 100,
+a = i || 1,
+o = h.document,
+d = navigator.userAgent,
+c = d.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),
+r = d.match(/U3\/((\d+|\.){5,})/i),
+l = r && 80 <= parseInt(r[1].split(".").join(""), 10),
+m = navigator.appVersion.match(/(iphone|ipad|ipod)/gi),
+s = h.devicePixelRatio || 1;
+m || c && 534 < c[1] || l || (s = 1), t && (s = 1); var p = 1 / s,
+u = o.querySelector('meta[name="viewport"]');
+u || ((u = o.createElement("meta")).setAttribute("name", "viewport"), o.head.appendChild(u)), u.setAttribute("content", "width=device-width,user-scalable=no,initial-scale=" + p + ",maximum-scale=" + p + ",minimum-scale=" + p), o.documentElement.style.fontSize = n / 2 * s * a + "px" },
+i = 2,
+t = -1 < h.location.search.indexOf("scale=normal");
+h !== h.top && 1 === h.devicePixelRatio ? e(100, i *= h.document.documentElement.scrollWidth / 375, !!t) : navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i) ? e(100, i *= h.screen.availWidth / 375, !!t) : (h.document.documentElement.classList.add("device-pc"), e(100, i, !0)) }()
+</script>
+<link rel="shortcut icon" href="./favicon.ico" />
+<title>
+<block name="title"></block>
+</title>
+<meta name="description" content="海量高品质漫画抢先看" />
+<link href="__CSS__/main.48b4036a.css?v=1.1" rel="stylesheet">
+<link href="__CSS__/aui/aui.css" rel="stylesheet" />
+<script><?php echo htmlspecialchars_decode(C('SITE_TONGJI'));?></script>
+<script type="text/javascript" src="__JS__/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="__JS__/layer/layer.js"></script>
+<script type="text/javascript" src="__JS__/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="__JS__/layer/layer.js"></script>
+<script type="text/javascript" src="__JS__/template-web.js"></script>
+<script type="text/javascript" src="__JS__/aui-toast.js"></script>
+<script type="text/javascript" src="__JS__/aui-dialog.js"></script>
+<script type="text/javascript" src="__JS__/config.js?v=1.0" charset="utf-8"></script>
+<block name="head"></block>
+</head>
+<body >
+<div id="root" style="height: 100%;">
+<div id="framework7-root" class="framework7-root {$user.myui}">
+<div class="panel-backdrop"></div>
+<div class="panel panel-left panel-reveal">S
+<div id="chapterDirectory" class="page">
+<div class="page-content">
+<div class="block-title">目录</div>
+<div class="no-margin-bottom list virtual-list">
+<ul id="leftpannel" style="height: 5667.84px;">
+<li class="bg-color-default text-color-primary" style="height: 0.48rem; top: 0px; font-size: 110%; font-weight: 700;"><a class="item-link" href="#">
+<div class="item-content">
+<div class="item-media"><img slot="media" alt="" class="lazy-fade-in lazy-loaded" src="" style="width: 0.64rem; height: 0.32rem; margin-right: -0.16rem;"></div>
+<div class="item-inner">
+<div class="item-title">第1話-侵吞妻子的鑰匙聲&lt;1&gt;</div>
+</div>
+</div>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-right panel-reveal">
+<div class="page">
+<div class="page-content">
+<div class="block-title">
+<div class="width-100 ">
+<a class="reader-personal margin-bottom" href="{:U('user/index')}"><img class=" avatar" src="{$user.headimage}" alt="" />
+<div class="content">
+<p>{$user.username}</p>
+<p class="text-color-gray font-size-12">
+<if condition="$user['isvip_status'] eq 1 ">已开通
+<else /> 未开通
+</if>
+</p>
+<p>剩余书币：{$user.score}</p>
+</div>
+</a>
+<a class="button button-round button-fill button-small" href="{:U('Public/login')}">切换账号</a>
+</div>
+</div>
+<div class="list">
+<ul>
+<li class=""><a class="item-link panel-close" href="{:U('index/index')}">
+<div class="item-content">
+<div class="item-media">
+<i class="icon material-icons">home</i>
+</div>
+<div class="item-inner">
+<div class="item-title">
+首页
+</div>
+</div>
+</div>
+</a></li>
+<li class=""><a class="item-link panel-close" href="{:U('book/cate')}">
+<div class="item-content">
+<div class="item-media">
+<i class="icon material-icons">widgets</i>
+</div>
+<div class="item-inner">
+<div class="item-title">
+分类
+</div>
+</div>
+</div>
+</a></li>
+<li class=""><a class="item-link panel-close" href="{:U('book/toplist')}">
+<div class="item-content">
+<div class="item-media">
+<i class="icon material-icons">equalizer</i>
+</div>
+<div class="item-inner">
+<div class="item-title">
+排行
+</div>
+</div>
+</div>
+</a></li>
+<li class=""><a class="item-link panel-close" href="{:U('user/favorite')}">
+<div class="item-content">
+<div class="item-media">
+<i class="icon material-icons">local_library</i>
+</div>
+<div class="item-inner">
+<div class="item-title">
+书架
+</div>
+</div>
+</div>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="view view-main">
+<block name="body"></block>
+</div>
+<div class="framework7-modals"></div>
+<div class="actions-backdrop"></div>
+<div class="dialog-backdrop"></div>
+<div class="dialog dialog-buttons-1 dialog-buttons-vertical reader-copy-modal modal-in" style="display: none; margin-top: -372px;">
+<div class="dialog-inner">
+<div class="dialog-title"></div>
+<div class="dialog-text"></div>
+<input id="foo" type="link" value="" readonly="">
+</div>
+<div class="dialog-buttons">
+<span class="dialog-button dialog-button-bold text-align-center text-color-primary" data-clipboard-action="copy" data-clipboard-target="#foo">复制链接</span>
+</div>
+</div>
+<div class="popover-backdrop"></div>
+<div class="toast">
+<div class="toast-content">
+<div class="toast-icon"></div>
+<div class="toast-text"></div>
+<a class="toast-button"></a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="__JS__/yymh.js"></script>
+<script src="__JS__/clipboard.min.js"></script>
+<block name="bodyext"></block>
+</body>
+</html>

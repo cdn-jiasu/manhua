@@ -1,0 +1,91 @@
+﻿.aui-bar-light {
+	color: #F9766A;
+	background-color: #ffffff;
+	border-bottom: 1px solid #dddddd;
+}
+
+.aui-bar-nav.aui-bar-light .aui-iconfont {
+	color: #F9766A;
+}
+
+.aui-bar-tab .aui-active {
+	color: #F9766A;
+}
+
+.aui-bar-nav.aui-bar-light .aui-bar-btn-item {
+	border-color: #F9766A;
+}
+
+.aui-bar-nav.aui-bar-light .aui-bar-btn-item.aui-active {
+	background-color: #F9766A;
+	color: #ffffff;
+}
+
+.aui-tab-item.aui-active {
+	color: #F9766A;
+	border-bottom: 2px solid #F9766A;
+	background-color: #FFFFFF;
+}
+
+.aui-tab {
+	background-color: #fafafa;
+}
+
+.aui-tab-item {
+	color: #999;
+}
+
+.aui-switch:checked {
+	border-color: #F9766A;
+	background-color: #F9766A;
+}
+
+.aui-bar-tab .aui-active  a {
+	color: #F9766A;
+}
+
+a {
+	color: #212121;
+}
+
+.aui-tips {
+	background-color: #FDF8E4;
+	color: #846932;
+}
+
+.aui-tips p {
+	font-size: 0.75rem;
+	color: #846932;
+}
+
+.myui-tips {
+	background-color: #FDF8E4;
+	color: #846932;
+	padding: 0.6rem 0.75rem;
+	width: 100%;
+	z-index: 1;
+	line-height: 0.85rem;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.myui-tips .myui-tips-title {
+	padding: 0px 10px;
+}
+
+.myui-tips .myui-tips-title>p {
+	font-size: 0.75rem;
+	color: #846932;
+}
+
+.myui-tips .myui-tips-title p>a {
+	font-size: 0.75rem;
+	color: #846932;
+}
